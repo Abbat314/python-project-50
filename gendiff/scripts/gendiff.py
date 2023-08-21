@@ -8,6 +8,7 @@ def main():
                     description='Compares two configuration files and shows a difference.')
     parser.add_argument('first_file', nargs=1)
     parser.add_argument('second_file', nargs=1)
+    parser.add_argument('-f', '--format', help='set format of output')
 
     args = parser.parse_args()
 
